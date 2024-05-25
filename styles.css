@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5, h6, p, a, li {
 body {
     margin: 0;
     text-align: center;
-    background-image: url("milad-fakurian-E8Ufcyxz514-unsplash.jpg");
+    background-image: url("images/milad-fakurian-E8Ufcyxz514-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
@@ -13,6 +13,14 @@ body {
 }
 .content {
     background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
+    color: #ffffff;
+    padding: 20px;
+}
+.copyright {
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     padding: 20px;
 }
