@@ -74,6 +74,10 @@ body {
     max-width: 1280px;
     margin:auto;
 }
+.container-1140 {
+    max-width: 1140px;
+    margin: auto;
+}
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
@@ -83,6 +87,11 @@ h1 {
 h2 {
     font-size: 36px;
     color:#010032;
+}
+@media screen and (max-width:767px) {
+    h1 {
+        font-size: 36px;
+    }
 }
 .btn-primary {
     background-color: #cb599b;
@@ -114,15 +123,26 @@ h2 {
 .hero img {
    border-radius: 12px;
 }
+.hero-main {
+    background: #010032;
+    color: #ffffff;
+    border-top: 4px solid #2792d6;
+    padding: 60px 20px;
+}
 .header {
     padding: 20px;
+}
+@media screen and (max-width: 767px) {
+    .header, .hero, .hero-main, .copyright {
+        text-align: center;
+    }
 }
 .header img {
     width: 274px;
     max-width: 274px;
 }
 i {
-    color:#8fbd1d;
+    color:#56b476;
 }
 .benefits {
     padding: 0 20px;
@@ -154,6 +174,9 @@ i {
     background-color: #ffffff;
     border-radius: 6px;
     box-shadow: rgba(39, 146, 214, 0.1) 0px 25px 20px -20px;
+    max-width: 900px;
+    margin-left:auto;
+    margin-right: auto;
 }
 .event-title {
     font-weight: 700;
@@ -197,4 +220,7 @@ i {
 }
 .copyright a {
     color: #ffffff;
+}
+.main-content {
+    padding: 40px 20px;
 }
