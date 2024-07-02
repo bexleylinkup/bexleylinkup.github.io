@@ -118,7 +118,7 @@ h2 {
     background: #010032;
     color: #ffffff;
     border-top: 4px solid #2792d6;
-    padding: 60px 20px 120px 20px;
+    padding: 40px 20px 100px 20px;
 }
 .hero img {
    border-radius: 12px;
@@ -130,7 +130,7 @@ h2 {
     padding: 60px 20px;
 }
 .header {
-    padding: 20px;
+    padding: 10px 20px;
 }
 @media screen and (max-width: 767px) {
     .header, .hero, .hero-main, .copyright {
@@ -164,7 +164,7 @@ i {
 }
 .about {
     text-align: center;
-    padding: 100px 20px 80px 20px;
+    padding: 80px 20px 80px 20px;
 }
 .events {
     background-color: rgba(39, 146, 214, 0.1);
@@ -187,7 +187,7 @@ i {
     /* background-image: url(images/engine-house-bexley.jpg); */
     background-color: rgba(86, 180, 118, 0.9);
     text-align: center;
-    padding: 40px 20px;
+    padding: 40px 20px 60px 20px;
 }
 .subscribe a {
     color: #000000;
